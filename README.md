@@ -1,7 +1,8 @@
 # Weather Web App 🌤️
 
 A simple weather web application that allows users to check the current weather of any city using the OpenWeatherMap API.
-## Watch it on live -url()
+## Watch it on live -url(https://zahraai3.github.io/weatherweb/)
+
 ## Features
 
 - Search for any city to get its weather.
