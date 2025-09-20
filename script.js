@@ -17,6 +17,10 @@ async function checkWeather(city) {
 
     console.log(detaweather)
 
+    // hide error message in case it was showing before
+    document.querySelector(".error").style.display = "none";
+    document.querySelector(".weather").style.display = "block";
+
     document.querySelector(".city").innerHTML = detaweather.name;
     document.querySelector(".temp").innerHTML = Math.round(detaweather.main.temp) +"°c";
     document.querySelector(".humidity").innerHTML = detaweather.main.humidity + " %";
